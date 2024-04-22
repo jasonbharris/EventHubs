@@ -1,0 +1,17 @@
+{
+  "name": "eventhubs",
+  "version": "1.0.0",
+  "description": "This is a comprehensive event management platform that allows users to create, manage, and attend various types of events.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "manage": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
