@@ -1,8 +1,12 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+// import { useQuery, useMutation } from "convex/react";
+// import { api } from "../convex/_generated/api";
 const app = express();
 
 let port = 3000;
+
+const events = [];
 
 
 app.set('view engine', 'ejs');
